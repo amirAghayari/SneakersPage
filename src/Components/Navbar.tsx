@@ -6,10 +6,10 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="navbar bg-gray-100 shadow-md w-screen p-4">
+    <nav className="navbar bg-gray-100 shadow-md w-screen p-4 fixed top-0">
       <div className="container mx-auto flex justify-between items-center">
         {/* logo*/}
-        <a className="text-xl font-extrabold !text-gray-800">sneakers</a>
+        <a className="text-xl font-extrabold !text-gray-800">SNEAKERS</a>
 
         {/* desktop items*/}
         <ul className="hidden md:flex space-x-6 text-gray-500">
